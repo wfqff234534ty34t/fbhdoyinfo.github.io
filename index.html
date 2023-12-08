@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>com.Claudia_Tânia</title>
+	<script src="contador.js"></script>
+	<link rel="stylesheet" type="text/css" href="c.css">	
+	<style>
+		@keyframes fadeInUp {
+			from { opacity: 0; transform: translateY(50px); }
+			to { opacity: 1; transform: translateY(0); }
+		}
+		#likeBtn {
+			position: relative;
+            left: 619px;
+            background-color: bisque;
+            border: 0cap;
+            font-size: 20px;
+			top: 120px;
+		}
+		#likeEmoji {
+			position: absolute;
+			top: -30px;
+			left: 50%;
+			transform: translateX(-50%);
+		}
+		#likeText {
+			margin-top: 10px;
+			font-size: 18px;
+			font-weight: bold;
+			left: 560px;
+			top: 110px;
+			position: relative;
+		}
+		
+	</style>
+</head>
+<body>
+    <div class="b">
+        <img src="imagem">
+    </div>
+	<!------------------------->
+	<button id="likeBtn" onclick="like()">Like<span id="likeEmoji" onclick="removeLike()">👍</span></button>
+	<div id="likeText"></div>
+
+	<!-- Conteúdo do site aqui -->
+	<script src="script.js"></script>
+    
+	<!-------------------------->
+
+</body>
+</html>
